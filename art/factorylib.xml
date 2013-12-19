@@ -1,0 +1,13 @@
+<library>
+  <library>/art/factories/gnd99.xml</library>
+  <library>/art/factories/gnd103.xml</library>
+  <library>/art/factories/gnd98.xml</library>
+  <library>/art/factories/gnd95.xml</library>
+  <library>/art/factories/gnd94.xml</library>
+  <library>/art/factories/gnd93.xml</library>
+  <library>/art/factories/gnd250.xml</library>
+  <library>/art/factories/gnd85.xml</library>
+  <library>/art/factories/gnd144.xml</library>
+  <library>/art/factories/Plane01.xml</library>
+  <library>/art/factories/gnd190.xml</library>
+</library>

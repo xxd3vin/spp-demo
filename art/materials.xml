@@ -1,0 +1,71 @@
+<library>
+  <textures>
+    <texture name="t_k33.JPG">
+      <file>/art/textures/t_k33.JPG</file>
+    </texture>
+    <texture name="t_g59.JPG">
+      <file>/art/textures/t_g59.JPG</file>
+    </texture>
+    <texture name="t_b22.JPG">
+      <file>/art/textures/t_b22.JPG</file>
+    </texture>
+    <texture name="t_235.jpg">
+      <file>/art/textures/t_235.jpg</file>
+    </texture>
+    <texture name="t_139.jpg">
+      <file>/art/textures/t_139.jpg</file>
+    </texture>
+    <texture name="t_102.jpg">
+      <file>/art/textures/t_102.jpg</file>
+    </texture>
+    <texture name="st_102.jpg">
+      <file>/art/textures/st_102.jpg</file>
+    </texture>
+    <texture name="a7lh0801.png">
+      <file>/art/textures/a7lh0801.png</file>
+      <alpha>
+        <binary />
+      </alpha>
+    </texture>
+    <texture name="t_79.jpg">
+      <file>/art/textures/t_79.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="m23_ms26Sub2">
+      <texture>t_79.jpg</texture>
+    </material>
+    <material name="m1846">
+      <texture>a7lh0801.png</texture>
+      <shader type="ambient">ambient</shader>
+    </material>
+    <material name="m811_ms821Sub9">
+      <texture>t_102.jpg</texture>
+      <shadervar type="texture" name="tex specular">st_102.jpg</shadervar>
+    </material>
+    <material name="m1006_ms1558Sub2">
+      <texture>t_139.jpg</texture>
+    </material>
+    <material name="m562_ms581Sub18">
+      <texture>t_235.jpg</texture>
+    </material>
+    <material name="m1299">
+      <texture>t_k33.JPG</texture>
+    </material>
+    <material name="m1300">
+      <texture>t_g59.JPG</texture>
+    </material>
+    <material name="m1301">
+      <texture>t_b22.JPG</texture>
+    </material>
+    <material name="m1301">
+      <texture>t_b22.JPG</texture>
+    </material>
+    <material name="m1300">
+      <texture>t_g59.JPG</texture>
+	</material>
+	<material name="m1299">
+	  <texture>t_k33.JPG</texture>
+	</material>
+  </materials>
+</library>

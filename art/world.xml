@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+  <library>/art/shaderlib.xml</library>
+  <library>/art/factorylib.xml</library>
+  <library>/art/materials.xml</library>
+  <start name="Camera">
+    <sector>Scene</sector>
+    <position x="8.6592" y="5.1716" z="-4.595" />
+    <up x="-0.3307" y="0.8953" z="0.2984" />
+    <forward x="-0.6549" y="-0.4452" z="0.6107" />
+  </start>
+  <sector name="Scene">
+    <ambient blue="0.54" green="0.54" red="0.54" />
+    <cullerp plugin="crystalspace.culling.frustvis" />
+    <meshobj name="gnd85#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd85</factory>
+      </params>
+      <move>
+        <v x="-532.6531982421875" y="0" z="-210.94805908203125" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd93#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd93</factory>
+      </params>
+      <move>
+        <v x="-69.10171508789062" y="8.75830078125" z="-24.661909103393555" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd103#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd103</factory>
+      </params>
+      <move>
+        <v x="-46.60899353027344" y="8.405258178710938" z="-15.155261993408203" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd99#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd99</factory>
+      </params>
+      <move>
+        <v x="-51.01286315917969" y="8.356521606445312" z="-19.574665069580078" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd98#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd98</factory>
+      </params>
+      <move>
+        <v x="-31.412351608276367" y="7.377501964569092" z="-14.912277221679688" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd95#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd95</factory>
+      </params>
+      <move>
+        <v x="-38.045684814453125" y="7.545073986053467" z="-14.908599853515625" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd94#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd94</factory>
+      </params>
+      <move>
+        <v x="-75.73504638671875" y="8.925872802734375" z="-24.658233642578125" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd144#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd144</factory>
+      </params>
+      <move>
+        <v x="-426.11102294921875" y="0" z="63.24462890625" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd190#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd190</factory>
+      </params>
+      <move>
+        <v x="-390.05963134765625" y="0.6444849967956543" z="103.38056945800781" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="gnd250#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>gnd250</factory>
+      </params>
+      <move>
+        <v x="-206.4180908203125" y="0" z="351.98602294921875" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="Plane01#1">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Plane01</factory>
+      </params>
+      <move>
+        <v x="-13.672577857971191" y="0" z="282.10528564453125" />
+        <matrix>
+          <scale x="1" y="1" z="1" />
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+  </sector>
+</world>

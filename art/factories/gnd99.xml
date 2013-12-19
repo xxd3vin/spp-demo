@@ -1,0 +1,16 @@
+<library>
+  <meshfact name="gnd99">
+    <plugin>crystalspace.mesh.loader.factory.genmesh</plugin>
+    <params>
+      <material>m1299</material>
+      <v x="0" y="2.344" z="4.4716" u="1" v="0" nx="1" ny="0" nz="0" />
+      <v x="0" y="-2.4053" z="-4.4716" u="0" v="1" nx="1" ny="0" nz="0" />
+      <v x="0" y="2.344" z="-4.4716" u="0" v="0" nx="1" ny="0" nz="0" />
+      <t v1="0" v2="1" v3="2" />
+      <t v1="2" v2="1" v3="0" />
+      <v x="0" y="-2.4053" z="4.4716" u="1" v="1" nx="1" ny="0" nz="0" />
+      <t v1="1" v2="0" v3="3" />
+      <t v1="3" v2="0" v3="1" />
+    </params>
+  </meshfact>
+</library>

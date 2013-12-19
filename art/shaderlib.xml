@@ -1,0 +1,2 @@
+<library> <shaders>   <shader>     <file>/shader/ambient.xml</file>   </shader>   <shader>     <file>/shader/light.xml</file>   </shader>
+</shaders></library>
