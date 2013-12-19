@@ -24,7 +24,8 @@ try {
 	require("ui.js");	// 这里加载 GUI 支持库
 	// 测试用的加载库。
 	//load("/loader_with_max_thread.js"); // require("loader.js");
-	load("/loader_wo_max_thread.js"); // require("loader.js");
+	//load("/loader_wo_max_thread.js"); // require("loader.js");
+    require("loader.js");
 	require("cursesui.js");	// 在CUI上画图用的。
 	
 	// 多线程加载开始。
